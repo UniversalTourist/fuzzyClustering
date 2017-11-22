@@ -1,6 +1,6 @@
 # Read the data from CSV file
 getwd()
-cigar <- read.table("/Users/hazel/Desktop/nyts2013_dataset.csv", sep = ";", header = TRUE)
+cigar <- read.table("~/nyts2013_dataset.csv", sep = ";", header = TRUE)
 names(cigar)
 dim(cigar)
 View(cigar)
